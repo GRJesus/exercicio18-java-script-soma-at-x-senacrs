@@ -7,5 +7,5 @@ var answer = 0;
 for (var i = 1; i < 51; i++) {
   numeric = numeric + 2;
   answer = answer + (numeric / i);
-}
+}//No laço de repetição preciso fazer todos os calculos dentro do for, e depois fora dele imprimir o resultado para dar certo.
 document.body.append(sum + answer);
